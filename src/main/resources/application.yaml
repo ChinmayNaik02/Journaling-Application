@@ -5,6 +5,11 @@ spring:
       database: journaldb
       auto-index-creation: true
 
+  redis:
+    host: redis-19262.c301.ap-south-1-1.ec2.redns.redis-cloud.com
+    port: 19262
+    password: 2AjPjadq83tl40lDcAuRQvxio9DanQUi
+
   mail:
     host: smtp.gmail.com
     port: 587
