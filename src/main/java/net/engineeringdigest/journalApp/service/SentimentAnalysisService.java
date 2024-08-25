@@ -1,2 +1,11 @@
-package net.engineeringdigest.journalApp.service;public class SentimentAnalysisService {
+package net.engineeringdigest.journalApp.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class SentimentAnalysisService {
+
+    public String getSentiment(String sentiment) {
+        return "";
+    }
 }
