@@ -3,8 +3,6 @@ package net.engineeringdigest.journalApp.service;
 import net.engineeringdigest.journalApp.model.SentimentData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 @Service
